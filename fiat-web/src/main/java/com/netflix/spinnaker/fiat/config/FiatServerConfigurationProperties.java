@@ -26,7 +26,7 @@ public class FiatServerConfigurationProperties {
   /**
    * True if the /authorize endpoint should be available to dump all users in the repo.
    */
-  private boolean getAllEnabled = false;
+  private boolean getAllEnabled = true;
 
   private WriteMode writeMode = new WriteMode();
 

@@ -12,4 +12,7 @@ endpoints:
   health:
     sensitive: false
 
+services:
+  front50:
+    baseUrl: http://localhost:8080
 # For options, see com.netflix.spinnaker.fiat.config.FiatServerConfigurationProperties
